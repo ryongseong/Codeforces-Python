@@ -1,0 +1,10 @@
+input()
+arr = list(map(int, input().split()))
+max_v = max(arr)
+min_v = min(arr)
+idx = arr.index(max_v)
+arr.pop(idx)
+arr.insert(0, idx)
+arr = arr[::-1]
+idx += arr.index(min_v)
+print(idx)
