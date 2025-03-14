@@ -1,3 +1,6 @@
+# https://codeforces.com/contest/2074/problem/C
+
+
 def is_non_degenerate(a, b, c):
     return a + b > c and a + c > b and b + c > a
 

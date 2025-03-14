@@ -1,3 +1,5 @@
+# https://codeforces.com/contest/2074/problem/D
+
 import math
 
 for _ in range(int(input())):

@@ -1,3 +1,6 @@
+# https://codeforces.com/contest/2074/problem/A
+
+
 def sol(l, r, d, u):
     return l == r == d == u
 
